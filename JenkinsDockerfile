@@ -1,0 +1,5 @@
+FROM jenkins
+MAINTAINER emanuel.miranda@jumia.com
+USER root
+RUN apt-get update && apt-get install -y nano
+USER jenkins
